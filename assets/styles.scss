@@ -52,3 +52,14 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+.article pre,
+.article .highlight {
+  overflow-x: auto;
+  padding-bottom: 5px; 
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
