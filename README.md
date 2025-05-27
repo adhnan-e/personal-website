@@ -221,6 +221,34 @@ You are, of course, welcome to remove it or replace it with another framework. J
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
 
+## Performance, Accessibility, and SEO
+
+A website that's fast, accessible, and SEO-friendly can lead to better user experiences and search engine rankings. Your website comes pre-configured with a few optimizations that you can build upon.
+
+### Performance
+
+Your website comes with a few features that help ensure that it loads quickly:
+
+- **Minified HTML, CSS, and JavaScript**: Your website is configured to automatically compress these types of files, using [`jekyll-minifier`](https://github.com/jekyll/jekyll-minifier).
+- **Optimized images**: All of the images in your `/assets/img/` directory are automatically optimized using [`jekyll-imagemagick`](https://github.com/forestryio/jekyll-imagemagick).
+- **Lazy-loaded images**: Images are loaded only when they're visible in the browser, using [`jekyll-lazyload-img`](https://github.com/forestryio/jekyll-lazyload-img).
+
+### Accessibility
+
+Your website comes with a few features that help ensure that it's accessible to people with disabilities:
+
+- **Semantic HTML**: Your website uses HTML5 elements that clearly define the structure of your content.
+- **ARIA attributes**: Your website uses ARIA attributes to provide additional information about your content to assistive technologies.
+- **Keyboard navigation**: Your website can be navigated using only a keyboard.
+
+### SEO
+
+Your website comes with a few features that help ensure that it's SEO-friendly:
+
+- **Meta tags**: Your website includes meta tags that provide information about your content to search engines.
+- **Open Graph tags**: Your website includes Open Graph tags that allow you to control how your content appears when it's shared on social media.
+- **Twitter Cards**: Your website includes Twitter Cards that allow you to control how your content appears when it's shared on Twitter.
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
